@@ -400,6 +400,19 @@
 						</li>
 					</ul>
 				</div>
+
+				<div class="footer-subscribe">
+					<p class="subscribe-title">Подпишитесь на рассылку</p>
+					<form class="subscribe-form">
+						<input type="email" placeholder="E-mail" class="subscribe-email" name="subscribe-email" />
+						<button type="submit" class="subscribe-button">
+							Подписаться
+							<svg class="subscribe-icon" width="24" height="24">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
 		</footer>
 		<div class="backdrop is-hidden" data-modal>
@@ -441,7 +454,10 @@
 						<textarea name="comment" class="form-comment" placeholder="Введите текст"></textarea>
 					</label>
 					<label class="form-check">
-						<input type="checkbox" name="check" class="check-input" />
+						<input type="checkbox" name="check" class="check-input visually-hidden" />
+						<svg width="11" height="8" class="icon-check">
+							<use href="./images/icons.svg#icon-check"></use>
+						</svg>
 						<span class="check-text">
 							Соглашаюсь с рассылкой и принимаю
 							<span><a href="" class="check-link">Условия договора</a></span>
